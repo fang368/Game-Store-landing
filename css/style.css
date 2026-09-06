@@ -6,7 +6,32 @@
 
 html{
     font-size: 10px;
+    font-family: "Roboto";
+    font-weight: 400;
 }
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Regular.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-SemiBold.ttf');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Bold.ttf');
+    font-weight: 700;
+    font-style: normal;
+}
+
+
 
 body{
     color: black;
@@ -23,4 +48,54 @@ body{
     min-height: 100vh;
     background: url(../img/banner\ promotion.png) center / cover no-repeat;
     
+}
+
+.header-section__container{
+
+}
+
+.header-section__nav{
+    padding-top: 1.6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.nav-menu__list{
+    display: flex;
+    gap: 4rem;
+    list-style-type: none;
+}
+
+.nav-menu__list-item a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 2rem;
+}
+
+.nav-menu__buttons{
+    display: flex;
+    gap: 16px;
+
+}
+
+.nav-menu__button{
+    padding: 0.8rem 2.6rem;
+    text-align: center;
+    border-radius: 0.8rem;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.btn-register{
+    background-color: #3B44F6;
+    color: #ffffff;
+    border: none;
+}
+
+.btn-login{
+    background: transparent;
+    color: #ffffff;
+    border: 2px solid #fff;
 }
