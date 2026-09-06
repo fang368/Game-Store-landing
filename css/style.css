@@ -1,0 +1,26 @@
+*, ::after, ::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+}
+
+body{
+    color: black;
+    font-size: 1.8rem;
+
+}
+
+.container{
+    max-width: 128rem;
+    margin: 0 auto;
+}
+
+.header-section{
+    min-height: 100vh;
+    background: url(../img/banner\ promotion.png) center / cover no-repeat;
+    
+}
